@@ -1,0 +1,62 @@
+// Default preferences in raw data format for PROGMEM
+//
+#define defaultprefs_version 1808016
+const char defprefs_txt[] PROGMEM = R"=====(
+# Example configuration
+# Programmable input pins:
+gpio_00 = uppreset = 1
+gpio_12 = upvolume = 2
+gpio_13 = downvolume = 2
+gpio_14 = stop
+gpio_17 = resume
+gpio_34 = station = icecast.omroep.nl:80/radio1-bb-mp3
+#
+# MQTT settings
+mqttbroker = none
+mqttport = 1883
+mqttuser = none
+mqttpasswd = none
+mqqprefix = none
+# Enter your WiFi network specs here:
+wifi_00 = Csepp50/Karolyi1
+wifi_01 = Csepp2/Karolyi1
+#
+volume = 72
+toneha = 0
+tonehf = 0
+tonela = 0
+tonelf = 0
+#
+preset = 3
+# Some preset examples
+preset_00 = hu-stream02.klubradio.hu:8080/bpstream   #  0 - Klubradio
+preset_01 = stream.infostart.hu/stream               #  1 - Info Radio
+preset_02 = icast.connectmedia.hu/4736/mr1.mp3       #  2 - Kossuth Radio
+preset_03 = www.klasszikradio.hu/klasszik.mp3        #  3 - Klasszik Radio
+preset_04 = airspectrum.cdnstream1.com:8008/1604_128 #  4 - Magic 60s Florida 60s Classic Rock
+preset_05 = us1.internet-radio.com:8105              #  5 - Classic Rock Florida - SHE Radio
+preset_06 = icecast.omroep.nl:80/radio1-bb-mp3       #  6 - Radio 1, NL
+preset_07 = 205.164.62.15:10032                      #  7 - 1.FM - GAIA, 64k
+preset_08 = skonto.ls.lv:8002/mp3                    #  8 - Skonto 128k
+preset_09 = 94.23.66.155:8106                        #  9 - *ILR CHILL and GROOVE
+preset_10 = ihr/IHR_IEDM                             # 10 - iHeartRadio IHR_IEDM
+preset_11 = ihr/IHR_TRAN                             # 11 - iHeartRadio IHR_TRAN
+#
+# Clock offset and daylight saving time
+
+
+
+
+
+
+  // Radio source: https://onlinestream.live
+  preferences.putString ( "preset",      "3" ) ;
+  preferences.putString ( "preset_00",   "hu-stream02.klubradio.hu:8080/bpstream     #  0 - Klubradio" ) ;
+  preferences.putString ( "preset_01",   "stream.infostart.hu/stream                 #  1 - Info Radio" ) ;
+  preferences.putString ( "preset_02",   "icast.connectmedia.hu/4736/mr1.mp3         #  2 - Kossuth Radio" ) ;
+  preferences.putString ( "preset_03",   "www.klasszikradio.hu/klasszik.mp3          #  3 - Klasszik Radio" ) ;
+  preferences.putString ( "preset_04",   "icast.connectmedia.hu/5001/live.mp3        #  4 - Retro Radio" ) ;
+  preferences.putString ( "preset_05",   "slagerfm.netregator.hu:7813/slagerfm64.mp3 #  5 - Slager FM" ) ;
+  preferences.putString ( "preset_06",   "icast.connectmedia.hu/4741/mr3.mp3         #  6 - Bartok Radio" ) ;
+  preferences.putString ( "preset_07",   "stream.mercyradio.eu:80/kabare.mp3         #  7 - Mercy Kabare" ) ;
+  preferences.putString ( "preset_08",   "live.topfm.hu:8000/comedy.mp3              #  8 - TOP FM Humor" ) ;

@@ -2545,7 +2545,7 @@ void setup()
     dsp_println ( "Starting......" ) ;
     strncpy ( tmpstr, VERSION, 16 ) ;                    // Limit version length
     dsp_println ( tmpstr ) ;
-    dsp_println ( "By Ed Smallenburg" ) ;
+    dsp_println ( "By zkarolyi" ) ;
     dsp_update ( enc_menu_mode == VOLUME ) ;             // Show on physical screen if needed
   }
   else

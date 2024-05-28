@@ -5,7 +5,7 @@
 //***************************************************************************************************
 //
 #ifndef CONFIG_H
-  //#define NAME "ESP32-Radio"                              // Define name of the radio, also AP SSID,
+  #define NAME "NetRadio"                                   // Define name of the radio, also AP SSID,
                                                             // also namespace in NVS.
                                                             // Default is "ESP32-Radio"
 
@@ -13,13 +13,13 @@
 
   //#define ETHERNET                                        // For wired Ethernet (WT32-ETH-01 or similar)
 
-  //#define FIXEDWIFI "SSID-11/PW12345"                     // Add a fixed SSID to the list (WiFi only)
+  #define FIXEDWIFI "Csepp2/Karolyi1"                     // Add a fixed SSID to the list (WiFi only)
   
   //#define ENABLEOTA                                       // OTA feature
 
   // Define (just one) type of MP3/AAC decoder
-  #define DEC_VS1053                                        // Hardware decoder for MP3, AAC, OGG
-  //#define DEC_VS1003                                      // Hardware decoder for MP3 only
+  //#define DEC_VS1053                                        // Hardware decoder for MP3, AAC, OGG
+  #define DEC_VS1003                                      // Hardware decoder for MP3 only
   //#define DEC_HELIX                                       // Software decoder for MP3, AAC. I2S output
   //#define DEC_HELIX_SPDIF                                 // Toslink/Spdif output for MP3, AAC (experimental)
   //#define DEC_HELIX_AI                                    // Software decoder for AI Audio kit (AC101)

@@ -28,16 +28,27 @@ tonelf = 0
 #
 preset = 6
 # Some preset examples
-preset_00 = 109.206.96.34:8100                       #  0 - NAXI LOVE RADIO, Belgrade, Serbia
-preset_01 = airspectrum.cdnstream1.com:8114/1648_128 #  1 - Easy Hits Florida 128k
-preset_02 = stream.hitfm.de:9050/live                #  2 - 89 HIT FM - Munichs Power Station, 128k
-preset_03 = airspectrum.cdnstream1.com:8000/1261_192 #  3 - Magic Oldies Florida
-preset_04 = airspectrum.cdnstream1.com:8008/1604_128 #  4 - Magic 60s Florida 60s Classic Rock
-preset_05 = us1.internet-radio.com:8105              #  5 - Classic Rock Florida - SHE Radio
-preset_06 = icecast.omroep.nl:80/radio1-bb-mp3       #  6 - Radio 1, NL, 192k
-preset_07 = 205.164.62.15:10032                      #  7 - 1.FM - GAIA, 64k
-preset_08 = www.doowopradio.com:8000                 #  8 - Doo-Wop Radio, 96k
-preset_09 = server-27.stream-server.nl:8192/stream   #  9 - 192 Radio Nederland, 320k
+
+
+preset_00 = hu-stream02.klubradio.hu:8080/bpstream     #   0 - Klubradio
+preset_01 = stream.infostart.hu/stream                 #   1 - Info Radio
+preset_02 = icast.connectmedia.hu/4736/mr1.mp3         #   2 - Kossuth Radio
+preset_03 = www.klasszikradio.hu/klasszik.mp3          #   3 - Klasszik Radio
+preset_04 = icast.connectmedia.hu/5001/live.mp3        #   4 - Retro Radio
+preset_05 = slagerfm.netregator.hu:7813/slagerfm64.mp3 #   5 - Slager FM
+preset_06 = icast.connectmedia.hu/4741/mr3.mp3         #   6 - Bartok Radio
+preset_07 = stream.mercyradio.eu:80/kabare.mp3         #   7 - Mercy Kabare
+preset_08 = live.topfm.hu:8000/comedy.mp3              #   8 - TOP FM Humor
+preset_09 = 109.206.96.34:8100                         #   9 - NAXI LOVE RADIO, Belgrade, Serbia
+preset_10 = airspectrum.cdnstream1.com:8114/1648_128   #  10 - Easy Hits Florida 128k
+preset_11 = stream.hitfm.de:9050/live                  #  11 - 89 HIT FM - Munichs Power Station, 128k
+preset_12 = airspectrum.cdnstream1.com:8000/1261_192   #  12 - Magic Oldies Florida
+preset_13 = airspectrum.cdnstream1.com:8008/1604_128   #  13 - Magic 60s Florida 60s Classic Rock
+preset_14 = us1.internet-radio.com:8105                #  14 - Classic Rock Florida - SHE Radio
+preset_15 = icecast.omroep.nl:80/radio1-bb-mp3         #  15 - Radio 1, NL, 192k
+preset_16 = 205.164.62.15:10032                        #  16 - 1.FM - GAIA, 64k
+preset_17 = www.doowopradio.com:8000                   #  17 - Doo-Wop Radio, 96k
+preset_18 = server-27.stream-server.nl:8192/stream     #  18 - 192 Radio Nederland, 320k
 #
 # Clock offset and daylight saving time
 clk_server = pool.ntp.org                            # Time server to be used
